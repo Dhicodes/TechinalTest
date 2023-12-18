@@ -1,0 +1,394 @@
+.icon_section{
+  background-color:#03045E ;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.call_now,.whatsapp_now,.applynow,.download_brochure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.hero_image{
+  width: 1470px; 
+  height: 400px;
+  /* opacity: 0.5; */
+  filter: blur(8px);
+  -webkit-filter: blur(2px);
+  
+}
+.hero_section .hero_text{
+  position: absolute;
+  top: 200px;
+  text-align: center;
+
+}
+.hero_section .hero_text h1{
+  font-weight: 700;
+}
+.hero_section .hero_text h1 span{
+  color: goldenrod;
+}
+.hero_section .hero_text p{
+  color: #fff;
+  text-wrap: wrap;
+  font-size: 24px;
+  text-align: center;
+  padding: 40px;
+}
+.hero_text h1{
+  color: #fff;
+}
+.content_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 200px;
+}
+.content_section .text_section h2{
+  color: #4C409C;
+}
+.content_section .text_section h2 span{
+  color: #f9bb06;
+}
+.content_section .form_section form {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #DEE8FF;
+}
+.content_section .form_section form input{
+  height: 40px;
+  border: none;
+
+}
+#phone , #email{
+  width: 400px;
+}
+.content_section .form_section form .alignment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.plane-card {
+  background: #fff;
+  width: 17rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border-bottom: 4px solid #000446;
+  box-shadow: 0 6px 30px rgba(207, 212, 222, 0.3);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.plane-card h4{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+}
+.plane-card p{
+  color: #4C409C;
+  font-size: 12px;
+}
+.heading{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #4C409C;
+}
+.tools_section img{
+  max-width: 100%;
+}
+.tools_section{
+  background: url('1-05\ 2.png');
+  height: 150px;
+}
+.tools_section .btn_section{
+  padding: 50px 150px;
+}
+.tools_section .btn_section button{
+  width: 180px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+
+}
+.roles_buttons{
+  padding: 0px 180px;
+  margin:0px 80px;
+}
+.roles_buttons button{
+  width: 270px;
+  height: 50px;
+  background-color: #4C409C;
+  color: #DEE8FF;
+  margin: 20px;
+  border-radius: 10px;
+  
+}
+
+.web_development_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DEE8FF;
+  height: 500px;
+}
+.web_development_section h4{
+  font-size: 25px;
+  color: #4C409C;
+  font-weight: 400;
+}
+.web_development_section .main_head{
+  font-weight: 700;
+  color: #4C409C;
+  margin:10px 40px;
+}
+.fee_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 40px;
+}
+.fee_section .fee{
+  background-color: #F9BB06;
+  color: white;
+}
+.fee_section .price{
+  background-color: #4C409C;
+  color: white;
+}
+.web_development{
+  text-align: center;
+}
+.web_development button{
+  margin-top: 20px;
+}
+.web_development .free{
+  background-color: #4C409C;
+  color: #fff;
+}
+.web_development .app_now{
+  background-color: #fff;
+  color: #4C409C;
+  border: 1px solid #4C409C;
+  width: 140px;
+}
+.certificate_from{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+.certificate_from img{
+  width: 100px;
+  height: 60px;
+}
+.web_development_section .certificate img{
+  width: 600px;
+  height: 400px;
+}
+.faq_para{
+  padding: 20px 120px;
+  font-size: 20px;
+  color: #4C409C;
+}
+
+
+.faq_btn{
+  width: 180px;
+  height: 50px;
+  font-size: larger;
+  font-weight: 700px;
+  background-color: #03045E;
+  color: #fff;
+  position: relative;
+  left: 100px;
+  margin: 20px;
+}
+
+.faq_element{
+  padding: 0px 40px;
+}
+
+
+
+.accordion {
+  background-color: #DEE8FF;
+  color: #4C409C;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  font-weight: 700;
+}
+
+.active, .accordion:hover {
+  background-color: #DEE8FF;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #DEE8FF;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 992px){
+
+  .icon_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .hero_image{
+    max-width: 100%;
+    max-height: fit-content;
+  }
+  .hero_section .hero_text{
+    position: absolute;
+    top: 450px;
+  }
+  .hero_section .hero_text h1{
+    font-size: 20px;
+    padding: 0px;
+  }
+  .hero_section .hero_text p{
+    font-size: 10px;
+    padding: 0px;
+  }
+  /* .hero_section .hero_text .hero_btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  } */
+  .content_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .content_section .form_section form .alignment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #phone , #email{
+    width: fit-content;
+    height: fit-content;
+  }
+  .content_section .form_section form{
+    width: 300px;
+    height: 400px;
+  }
+  .card_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .tools_section img{
+    max-height: 100%;
+  }
+  .tools_section{
+    background: url('1-05\ 2.png');
+    height: 500px;
+  }
+  .tools_section .btn_section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 15px;
+
+  }
+  .tools_section .btn_section button{
+    font-size: 10px;
+    width: 160px;
+  }
+  .roles_buttons{
+    padding: 0px 10px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .web_development_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEE8FF;
+    height: 700px;
+    gap: 30px;
+  }
+  .web_development_section .certificate img{
+    width: 300px;
+    height: 200px;
+  }
+  .faq_para{
+    padding: 0px 5px;
+    text-align: center;
+  }
+  .faq_btn{
+    position: relative;
+    left: 60px;
+  }
+}
